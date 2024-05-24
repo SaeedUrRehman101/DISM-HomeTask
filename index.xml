@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<batch_09b>
+    <student>
+        <Name>Kashif</Name>
+        <Id>149845</Id>
+        <Course>ACCP</Course>
+        <Smester>1</Smester>
+    </student>
+
+    <student>
+        <Name>Ahmed</Name>
+        <Id>239287</Id>
+        <Course>ACCP</Course>
+        <Smester>1</Smester>
+    </student>
+
+    <student>
+        <Name>Fahad</Name>
+        <Id>148959</Id>
+        <Course>ACCP</Course>
+        <Smester>1</Smester>
+    </student>
+
+    <student>
+        <Name>Asad</Name>
+        <Id>325121</Id>
+        <Course>ACCP</Course>
+        <Smester>1</Smester>
+    </student>
+
+    <student>
+        <Name>Whab</Name>
+        <Id>325121</Id>
+        <Course>ACCP</Course>
+        <Smester>1</Smester>
+    </student>
+
+</batch_09b>
