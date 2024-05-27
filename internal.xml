@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="extend.dtd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<!DOCTYPE students [
+    <!ELEMENT students (student)+>
+    <!ELEMENT student (name,id,(email|phone_no)+,batch_code)>
+    <!ELEMENT id (#PCDATA)>
+    <!ELEMENT email (#PCDATA)>
+    <!ELEMENT phone_no (#PCDATA)>
+    <!ELEMENT batch_code (#PCDATA)>
+    <!ELEMENT name (#PCDATA)>
+    <!ATTLIST student classid CDATA #REQUIRED>
+]>
+<students>
+    <student classid="">
+        <name>Kashif</name>
+        <id>1298230</id>
+        <phone_no>03203988210</phone_no>
+        <batch_code>202309b</batch_code>
+    </student>
+    <student classid="">
+        <name>Asad</name>
+        <id>1298231</id>
+        <email>asad@gmail.com</email>
+        <batch_code>202309b</batch_code>
+    </student>
+    <student classid="">
+        <name>Ahsan</name>
+        <id>1298232</id>
+        <email>ahsan@gmail.com</email>
+        <phone_no>03921929093</phone_no>
+        <batch_code>202309b</batch_code>
+    </student>
+</students>
